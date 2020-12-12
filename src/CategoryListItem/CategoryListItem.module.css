@@ -1,46 +1,30 @@
 .category {
-    display: flex;
-    flex-direction: column;
-    border: 1px solid rgb(238, 231, 231);
-    border-radius: 10px;
-    box-shadow: 0 5px 10px 5px rgba(0, 0, 0, 0.3);
-    font-family: Arial, Helvetica, sans-serif;
-    justify-content: space-between;
-    width: 20rem;
-    height: 18rem;
+    
 }
 
 
 .imageBlock {
-    height: 14rem;
+    
 }
 
 .image {
-    border-radius: 10px 10px 0px 0px;
-    width: 100%;
-    height: 100%;
+    width: 15rem;
+    height: 3rem;
+
 }
 
 .title {
-    padding-left: 15px;
-    padding-top:10px;
-    padding-bottom: 15px;
-    margin:0;
-    font-size: 24px;
-    font-weight: 700;
-    text-decoration: none;
-    color: black;
-    font-family: 'Raleway', serif;
+    
 }
 
 @media screen and (min-width: 500px) {
     .category {
-        width: 25rem;
+        
     }
 }
 
 @media screen and (min-width: 700px) and (max-width:900px) {
     .category {
-        width: 20rem;
+        
     }
 }
