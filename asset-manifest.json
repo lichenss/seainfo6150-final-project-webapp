@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/seainfo6150-final-project-webapp/static/css/main.311fac2a.chunk.css",
-    "main.js": "/seainfo6150-final-project-webapp/static/js/main.51eb6179.chunk.js",
-    "main.js.map": "/seainfo6150-final-project-webapp/static/js/main.51eb6179.chunk.js.map",
+    "main.css": "/seainfo6150-final-project-webapp/static/css/main.5af8c896.chunk.css",
+    "main.js": "/seainfo6150-final-project-webapp/static/js/main.0acd154d.chunk.js",
+    "main.js.map": "/seainfo6150-final-project-webapp/static/js/main.0acd154d.chunk.js.map",
     "runtime~main.js": "/seainfo6150-final-project-webapp/static/js/runtime~main.c4d7f5e8.js",
     "runtime~main.js.map": "/seainfo6150-final-project-webapp/static/js/runtime~main.c4d7f5e8.js.map",
-    "static/js/2.26f3a7c2.chunk.js": "/seainfo6150-final-project-webapp/static/js/2.26f3a7c2.chunk.js",
-    "static/js/2.26f3a7c2.chunk.js.map": "/seainfo6150-final-project-webapp/static/js/2.26f3a7c2.chunk.js.map",
+    "static/js/2.643d7141.chunk.js": "/seainfo6150-final-project-webapp/static/js/2.643d7141.chunk.js",
+    "static/js/2.643d7141.chunk.js.map": "/seainfo6150-final-project-webapp/static/js/2.643d7141.chunk.js.map",
     "index.html": "/seainfo6150-final-project-webapp/index.html",
-    "precache-manifest.bcb1853a682afc338fb628168ebdff2d.js": "/seainfo6150-final-project-webapp/precache-manifest.bcb1853a682afc338fb628168ebdff2d.js",
+    "precache-manifest.93b6fc412dc1599d526607fcae18cf5a.js": "/seainfo6150-final-project-webapp/precache-manifest.93b6fc412dc1599d526607fcae18cf5a.js",
     "service-worker.js": "/seainfo6150-final-project-webapp/service-worker.js",
-    "static/css/main.311fac2a.chunk.css.map": "/seainfo6150-final-project-webapp/static/css/main.311fac2a.chunk.css.map",
+    "static/css/main.5af8c896.chunk.css.map": "/seainfo6150-final-project-webapp/static/css/main.5af8c896.chunk.css.map",
     "static/media/arts_and_humanities.jpg": "/seainfo6150-final-project-webapp/static/media/arts_and_humanities.1584261e.jpg",
     "static/media/business.jpg": "/seainfo6150-final-project-webapp/static/media/business.d254776e.jpg",
     "static/media/CourseList.module.css": "/seainfo6150-final-project-webapp/static/media/computer_science.bceb26d0.jpg",
     "static/media/data_science.jpg": "/seainfo6150-final-project-webapp/static/media/data_science.5461e075.jpg",
+    "static/media/Header.module.css": "/seainfo6150-final-project-webapp/static/media/logo.5218e4af.png",
     "static/media/math_and_logic.jpg": "/seainfo6150-final-project-webapp/static/media/math_and_logic.b7e4fc16.jpg",
     "static/media/physical_science_and_engineering.jpg": "/seainfo6150-final-project-webapp/static/media/physical_science_and_engineering.42d5cf0c.jpg"
   }
