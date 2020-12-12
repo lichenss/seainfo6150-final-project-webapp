@@ -1,0 +1,8 @@
+.section {
+    padding-top: 70px;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    padding-bottom: 3rem;
+    background-color: rgb(229, 231, 233);
+}

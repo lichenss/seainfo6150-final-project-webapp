@@ -38,12 +38,7 @@ function App() {
           path="/:categoryLink"
           exact
           render={(props) => (
-            // getting the parameters from the url and passing
-            // down to the component as props
             <Category
-              match={props.match}
-              location={props.location}
-              history={props.history}
               categoryLink={props.match.params.categoryLink}
             />
           )}
@@ -52,12 +47,8 @@ function App() {
           path="/:categoryName/:courseID"
           exact 
           render={(props) => (
-            // getting the parameters from the url and passing
-            // down to the component as props
             <Course
-              match={props.match}
               location={props.location}
-              history={props.history}
             />
           )}
         />

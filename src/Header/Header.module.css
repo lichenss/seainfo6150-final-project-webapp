@@ -1,5 +1,5 @@
 .header {
-    background-color: #ffffff;
+    background-color: #fdfbfb;
     top: 0;
     left: auto;
     right: 0;
@@ -8,7 +8,18 @@
     z-index: 1;
     font-family: 'Source Sans Pro', serif;
 }
-
+.logo {
+    background-color: transparent;
+    background: url("../images/logo.png");
+    border:none;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 3rem;
+    height: 3rem;
+    padding:0;
+    cursor: pointer;
+    outline:none;
+}
 .navbar {
     display: flex;
     position: relative;
@@ -17,12 +28,6 @@
     padding-left: 24px;
     padding-right: 24px;
     height: 70px;
-}
-
-.empty {
-    flex:1;
-    width: 2rem;
-    display: block;
 }
 
 .backContainer {
@@ -38,43 +43,28 @@
     text-decoration: none;
 }
 
-.backBtn {
-    background-color: transparent;
-    border:none;
-    background: url("../images/business.jpg");
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 1.5rem;
-    height: 1.5rem;
-    padding:0;
-    cursor: pointer;
-    outline:none;
-}
-
-
-
-.title {
-    color: #17488D;
-    font-weight: 700;
-    font-size: 2rem;
-    line-height: 1.6;
-    text-transform: uppercase;
-    margin:0;
-}
-
 .links {
     flex:1;
     display: flex;
     justify-content: flex-end;
 }
 
-.homeLink {
-    color: #17488D;
+.categorylinks {
+    display: flex;
+}
+.catLink{
+    color:#17488D;
+    line-height: 1.6;
+    font-size: 1rem;
+    margin: 10px;
     text-decoration: none;
 }
 
-@media screen and (max-width:500px){
-    .title {
-        font-size: 1.5rem;
+@media screen and (max-width:700px){
+    .catLink {
+        font-size: 0.8rem;
+    }
+    .barLink{
+        font-size: 1rem;
     }
 }

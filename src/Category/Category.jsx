@@ -9,7 +9,7 @@ const Category = (props) => {
     useEffect(() => {
     const fetchData = async () => {
       // performs a GET request
-      const response = await fetch("http://demo8942208.mockable.io/"+props.categoryLink);
+      const response = await fetch("https://demo8942208.mockable.io/"+props.categoryLink);
       const responseJson = await response.json();
       setFetchedData(Object.values(responseJson));
     };
@@ -21,15 +21,10 @@ const Category = (props) => {
 
     return isEmpty(fetchedData) ? null :(
         <>
-            <Header
-                back={() => {
-                    props.history.goBack();
-                }}
-            />
+            <Header/>
             <section className={styles.section}>
                 <div className={styles.container}>
                     <div className={styles.block}></div>
-
                     <div className={styles.headLineContainer}>
                         <h1 className={styles.headLine}>
                             {props.categoryLink}

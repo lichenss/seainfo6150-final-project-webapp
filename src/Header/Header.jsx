@@ -1,24 +1,24 @@
 import React from 'react';
+import { useHistory } from 'react-router-dom'
 import { Link } from 'react-router-dom';
 import styles from './Header.module.css';
 
 const Header = (props) => {
-    const backBtn = props.back ? (
-        <div className={styles.backContainer}>
-            <button className={styles.backBtn} onClick={props.back}></button>
-        </div>
-    ) : (
-        <div className={styles.empty}></div>
-    );
+    const history = useHistory()
 
     return (
         <div>
             <header className={styles.header}>
                 <div className={styles.navbar}>
-                    {backBtn}
-                    <Link className={styles.homeLink} to="/">
-                        <h3 className={styles.title}>Course Store</h3>
-                    </Link>
+                <button className={styles.logo} onClick={() => {history.push('/')}}></button>
+                <div>
+                <Link className={styles.catLink} to='/computer-science'>Computer Science</Link>
+                <Link className={styles.catLink} to='/business'>Business</Link>
+                <Link className={styles.catLink} to='/data-science'>Data Science</Link>
+                <Link className={styles.catLink} to='/arts-and-humanities'>Arts and Humanities</Link>
+                <Link className={styles.catLink} to='/physical-science-and-engineering'>Physical Science and Engineering</Link>
+                <Link className={styles.catLink} to='/math-and-logic'>Math and Logic</Link>
+                </div>
                     <div className={styles.links}>
                         {!props.LoggedIn && (
                             <Link className={styles.barLink} to="/log-in">

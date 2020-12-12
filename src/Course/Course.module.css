@@ -4,6 +4,7 @@
     flex-direction: column;
     place-items: center;
     padding-bottom: 3rem;
+    background-color: rgb(229, 231, 233);
 }
 .container {
     display: flex;
@@ -45,27 +46,6 @@
     margin: 0;
     font-weight: 700;
 }
-.price {
-    font-size: 24px;
-    padding-right: 2rem;
-    color: red;
-    margin: 0;
-    font-weight: 700;
-}
-.contactContainer {
-    padding-left: 2rem;
-    padding-bottom: 2rem;
-}
-
-.contact {
-    font-size: 18px;
-    font-weight: 600;
-}
-
-.time {
-    font-size: 14px;
-    font-weight: 600;
-}
 
 .descriptionContainer {
     padding-left: 2rem;
@@ -73,19 +53,16 @@
     padding-bottom: 2rem;
     font-weight: 500;
 }
-
-.backBtn {
-    align-self: flex-start;
-    background-color: transparent;
-    border: none;
-    background: url('../images/computer_science.jpg');
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 1.5rem;
-    height: 1.5rem;
-    margin-left: 3rem;
-    margin-top: 1rem;
-    cursor: pointer;
+.linkContainer{
+    flex: 1;
+    display: flex;
+    justify-content:center;
+}
+.link{
+    font-size: 2rem;
+    color: rgb(58, 106, 179);
+    padding:5px 5px; 
+    text-decoration: none; 
 }
 
 @media screen and (min-width: 500px) {
@@ -97,9 +74,5 @@
 @media screen and (min-width: 800px) {
     .container {
         width: 50rem;
-    }
-    .backBtn {
-        width: 2.5rem;
-        height: 2.5rem;
     }
 }

@@ -9,9 +9,7 @@ const Course = (props) => {
     var {title,imgurl,description}=data;
     return (
         <>
-        <Header back={() => {
-            props.history.goBack();
-        }}/>
+        <Header />
         <section className={styles.section}>
             <div className={styles.container}>
                 <div className={styles.imageContainer}>
@@ -27,6 +25,8 @@ const Course = (props) => {
         <div className={styles.descriptionContainer}>
             <p>{data.description}</p>
         </div>
+        </div>
+        <div className={styles.linkContainer}>
         <Link className={styles.link} to={'/registration-confirmation'}>Registration</Link>
         </div>
         </section>

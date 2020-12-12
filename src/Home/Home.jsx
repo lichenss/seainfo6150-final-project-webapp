@@ -17,7 +17,6 @@ import CategoryList from '../CategoryList/CategoryList'
 }*/
 const Home = () => {
     return (
-        
         <div>
             <Header />
             <section className={styles.section}>
