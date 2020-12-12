@@ -1,41 +1,46 @@
 .section {
+  margin-top: 140px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
 }
 .container {
-    
 }
 .imageContainer {
-    
+  width: 100%;
+  height: 20rem;
 }
 
 .image {
-    
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .titleContainer {
-    
 }
 .title {
-    
 }
 
 .descriptionContainer {
-    
 }
-.linkContainer{
-    
+.linkContainer {
 }
-.link{
-    
+.link {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 3rem;
+  color: black;
 }
 
 @media screen and (min-width: 500px) {
-    .container {
-        width: 30rem;
-    }
+  .container {
+    width: 30rem;
+  }
 }
 
 @media screen and (min-width: 800px) {
-    .container {
-        width: 50rem;
-    }
+  .container {
+    width: 50rem;
+  }
 }

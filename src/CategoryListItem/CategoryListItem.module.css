@@ -1,30 +1,34 @@
 .category {
-    
+  width: 80%;
 }
 
+li {
+  list-style: none;
+}
 
 .imageBlock {
-    
+  width: 100%;
+  height: 8rem;
 }
 
 .image {
-    width: 15rem;
-    height: 3rem;
-
+  width: 100%;
+  height: 100%;
 }
 
 .title {
-    
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 1.5rem;
+  margin-top: 8px;
+  color: black;
 }
 
 @media screen and (min-width: 500px) {
-    .category {
-        
-    }
+  .category {
+  }
 }
 
-@media screen and (min-width: 700px) and (max-width:900px) {
-    .category {
-        
-    }
+@media screen and (min-width: 700px) and (max-width: 900px) {
+  .category {
+  }
 }
