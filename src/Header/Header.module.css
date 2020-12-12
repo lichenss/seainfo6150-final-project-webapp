@@ -1,5 +1,5 @@
 .header {
-    background-color: #28282a;
+    background-color: #ffffff;
     top: 0;
     left: auto;
     right: 0;
@@ -29,6 +29,15 @@
     flex:1;
 }
 
+.barLink{
+    color:#17488D;
+    font-weight: 600;
+    line-height: 1.6;
+    font-size: 1.5rem;
+    margin-left: 24px;
+    text-decoration: none;
+}
+
 .backBtn {
     background-color: transparent;
     border:none;
@@ -42,14 +51,10 @@
     outline:none;
 }
 
-button:focus {
-    border: 1px solid white;
-    border-radius: 4px;
-}
 
 
 .title {
-    color: white;
+    color: #17488D;
     font-weight: 700;
     font-size: 2rem;
     line-height: 1.6;
@@ -63,35 +68,9 @@ button:focus {
     justify-content: flex-end;
 }
 
-.createLink {
-    color: white;
-    font-weight: 700;
-    line-height: 1.6;
-    text-transform: uppercase;
-    font-size: 1.5rem;
-    margin-left: 24px;
-    text-decoration: none;
-}
-
 .homeLink {
-    color: white;
+    color: #17488D;
     text-decoration: none;
-}
-.cancel {
-    color: white;
-    font-weight: 700;
-    line-height: 1.6;
-    text-transform: uppercase;
-    font-size: 1.5rem;
-    margin-left: 24px;
-    text-decoration: none;
-    outline:none;
-    background-color: transparent;
-    background-repeat:no-repeat;
-    border: none;
-    cursor: pointer;
-    font-family: 'Source Sans Pro', serif;
-    padding:0;
 }
 
 @media screen and (max-width:500px){

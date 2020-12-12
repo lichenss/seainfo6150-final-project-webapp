@@ -21,12 +21,12 @@ const Header = (props) => {
                     </Link>
                     <div className={styles.links}>
                         {!props.LoggedIn && (
-                            <Link className={styles.createLink} to="/log-in">
+                            <Link className={styles.barLink} to="/log-in">
                                 Log In
                             </Link>
                         )}
                         {!props.LoggedIn && (
-                            <Link className={styles.createLink} to="/sign-up">
+                            <Link className={styles.barLink} to="/sign-up">
                                 Sign Up
                             </Link>
                         )}

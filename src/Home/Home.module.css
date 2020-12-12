@@ -1,12 +1,9 @@
 .section {
-    /* display: flex;
-    flex-direction: column;
-    align-items: stretch;
-    justify-content: space-between; */
     position: relative;
     margin-top:70px;
     place-items: center;
     height: 100%;
+    background-color: rgb(229, 231, 233);
 }
 
 .container {
