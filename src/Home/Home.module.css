@@ -1,0 +1,40 @@
+.section {
+    /* display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-between; */
+    position: relative;
+    margin-top:70px;
+    place-items: center;
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    padding-left:15px;
+    padding-right:15px;
+    justify-content: center;
+
+}
+.block {
+    height: 100px;
+    width: auto;
+}
+
+.headLineContainer {
+    place-items: center;
+}
+
+.headLine {
+    place-content: center;
+    font-size: 3rem;
+    font-family: 'Raleway', serif;
+    font-weight: 700;
+    line-height: 1.2;
+    text-transform: uppercase;
+    color: rgb(46, 45, 45);
+    margin: 0;
+}
