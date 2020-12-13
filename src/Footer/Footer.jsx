@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import styles from './Footer.module.css'
 const Footer = (props) => {
     return (
-            <footer>
+            <footer className={styles.footer}>
                  <div className={styles.links}>
                  <Link className={styles.link} to="/contact-us">
                      <h3 >Contact Us</h3>

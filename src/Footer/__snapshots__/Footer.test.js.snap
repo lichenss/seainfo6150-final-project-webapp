@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer tests renders correctly 1`] = `
+<div>
+  <footer
+    class="footer"
+  >
+    <div
+      class="links"
+    >
+      <a
+        class="link"
+        href="/contact-us"
+      >
+        <h3>
+          Contact Us
+        </h3>
+      </a>
+      <a
+        class="link"
+        href="/about-us"
+      >
+        <h3>
+          About Us
+        </h3>
+      </a>
+    </div>
+  </footer>
+</div>
+`;

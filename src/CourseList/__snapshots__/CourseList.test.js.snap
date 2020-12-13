@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CourseList tests renders correctly 1`] = `
+<div>
+  <div
+    class="section"
+  >
+    <div>
+      You have no data!
+    </div>
+  </div>
+</div>
+`;

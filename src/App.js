@@ -1,5 +1,5 @@
 import React from "react";
-import { Switch, Route, Link } from "react-router-dom";
+import { withRouter,Switch, Route, Link } from "react-router-dom";
 
 import Home from "./Home/Home.jsx";
 import ContactUs from "./ContactUs/ContactUs.jsx";
@@ -11,6 +11,7 @@ import ThankYou from "./ThankYou/ThankYou.jsx";
 import Category from "./Category/Category.jsx";
 import Course from "./Course/Course.jsx";
 import RegistrationConfirmation from "./RegistrationConfirmation/RegistrationConfirmation.jsx";
+
 
 // here is some external content. look at the /baz route below
 // to see how this content is passed down to the components via props
@@ -32,10 +33,14 @@ function App() {
       <Route path="/about-us" exact component={AboutUs} />
       <Route path="/log-in" exact component={LogIn} />
       <Route path="/sign-up" exact component={SignUp} />
-      <Route path="/registration-confirmation" exact component={RegistrationConfirmation} />
+      <Route path="/registration-confirmation" exact render={(props) => (
+            <RegistrationConfirmation
+            location={props.location}
+            />
+          )}/>
       <Route path="/thank-you" exact component={ThankYou} />
-        <Route
-          path="/:categoryLink"
+        <Route 
+          path="/category/:categoryLink"
           exact
           render={(props) => (
             <Category
@@ -44,7 +49,7 @@ function App() {
           )}
         />
         <Route
-          path="/:categoryName/:courseID"
+          path="/category/:categoryName/course/:courseID"
           exact 
           render={(props) => (
             <Course

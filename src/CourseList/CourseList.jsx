@@ -19,7 +19,7 @@ const CourseList = (props) => {
     }
   
     return (
-      <div>
+      <div className={styles.section}>
         {displayContent}
       </div>
     );

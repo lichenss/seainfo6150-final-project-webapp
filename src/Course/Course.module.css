@@ -1,13 +1,13 @@
 .section {
-  margin-top: 140px;
+  margin-top: 70px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-}
-.container {
+  background-color: rgb(229, 231, 233);
 }
 .imageContainer {
+  margin-top: 70px;
   width: 100%;
   height: 20rem;
 }
@@ -18,29 +18,30 @@
   object-fit: cover;
 }
 
-.titleContainer {
-}
 .title {
+  font-family: 'Roboto', sans-serif;
+}
+.content{
+  font-family: 'Open Sans', sans-serif;
 }
 
-.descriptionContainer {
-}
-.linkContainer {
-}
 .link {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: 3rem;
   color: black;
 }
 
-@media screen and (min-width: 500px) {
-  .container {
-    width: 30rem;
+@media screen and (min-width:600px){
+  .imageContainer {
+    height: 15rem;
   }
 }
-
-@media screen and (min-width: 800px) {
-  .container {
-    width: 50rem;
+@media screen and (min-width:900px){
+  .imageContainer {
+    height: 18rem;
+  }
+}
+@media screen and (min-width:1200px){
+  .imageContainer {
+    height: 20rem;
   }
 }

@@ -12,8 +12,8 @@ const AboutUs = () => {
             <h2 className={styles.title}>About Us</h2>
             </div>
             <div className={styles.descriptionContainer}>
-            <p>We envision a world where anyone, anywhere can transform their life by accessing the world’s best learning experience.</p>
-            <p>Developer:Chen Liu</p>
+            <p className={styles.content}>We envision a world where anyone, anywhere can transform their life by accessing the world’s best learning experience.</p>
+            <p className={styles.content}>Developer:Chen Liu</p>
             </div>
             </div>
                 </section>

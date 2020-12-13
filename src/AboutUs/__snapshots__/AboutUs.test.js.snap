@@ -1,0 +1,128 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AboutUs tests renders correctly 1`] = `
+<div>
+  <div>
+    <header
+      class="header"
+    >
+      <div
+        class="navbar"
+      >
+        <button
+          class="logo"
+        />
+        <div>
+          <a
+            class="catLink"
+            href="/category/computer-science"
+          >
+            Computer Science
+          </a>
+          <a
+            class="catLink"
+            href="/category/business"
+          >
+            Business
+          </a>
+          <a
+            class="catLink"
+            href="/category/data-science"
+          >
+            Data Science
+          </a>
+          <a
+            class="catLink"
+            href="/category/arts-and-humanities"
+          >
+            Arts and Humanities
+          </a>
+          <a
+            class="catLink"
+            href="/category/physical-science-and-engineering"
+          >
+            Physical Science and Engineering
+          </a>
+          <a
+            class="catLink"
+            href="/category/math-and-logic"
+          >
+            Math and Logic
+          </a>
+        </div>
+        <div
+          class="links"
+        >
+          <a
+            class="barLink"
+            href="/log-in"
+          >
+            Log In
+          </a>
+          <a
+            class="barLink"
+            href="/sign-up"
+          >
+            Sign Up
+          </a>
+        </div>
+      </div>
+    </header>
+  </div>
+  <section
+    class="section"
+  >
+    <div
+      class="container"
+    >
+      <div
+        class="titleContainer"
+      >
+        <h2
+          class="title"
+        >
+          About Us
+        </h2>
+      </div>
+      <div
+        class="descriptionContainer"
+      >
+        <p
+          class="content"
+        >
+          We envision a world where anyone, anywhere can transform their life by accessing the world’s best learning experience.
+        </p>
+        <p
+          class="content"
+        >
+          Developer:Chen Liu
+        </p>
+      </div>
+    </div>
+  </section>
+  <footer
+    class="footer"
+  >
+    <div
+      class="links"
+    >
+      <a
+        class="link"
+        href="/contact-us"
+      >
+        <h3>
+          Contact Us
+        </h3>
+      </a>
+      <a
+        class="link"
+        href="/about-us"
+      >
+        <h3>
+          About Us
+        </h3>
+      </a>
+    </div>
+  </footer>
+</div>
+`;

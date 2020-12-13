@@ -1,0 +1,146 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CategoryList tests renders correctly 1`] = `
+<div>
+  <div
+    class="section"
+  >
+    <ul
+      class="container"
+    >
+      <li
+        class="category"
+      >
+        <a
+          href="/category/computer-science"
+        >
+          <div
+            class="imageBlock"
+          >
+            <img
+              alt="Computer Science"
+              class="image"
+              src="computer_science.jpg"
+            />
+          </div>
+          <h3
+            class="title"
+          >
+            Computer Science
+          </h3>
+        </a>
+      </li>
+      <li
+        class="category"
+      >
+        <a
+          href="/category/business"
+        >
+          <div
+            class="imageBlock"
+          >
+            <img
+              alt="Business"
+              class="image"
+              src="business.jpg"
+            />
+          </div>
+          <h3
+            class="title"
+          >
+            Business
+          </h3>
+        </a>
+      </li>
+      <li
+        class="category"
+      >
+        <a
+          href="/category/data-science"
+        >
+          <div
+            class="imageBlock"
+          >
+            <img
+              alt="Data Science"
+              class="image"
+              src="data_science.jpg"
+            />
+          </div>
+          <h3
+            class="title"
+          >
+            Data Science
+          </h3>
+        </a>
+      </li>
+      <li
+        class="category"
+      >
+        <a
+          href="/category/arts-and-humanities"
+        >
+          <div
+            class="imageBlock"
+          >
+            <img
+              alt="Arts and Humanities"
+              class="image"
+              src="arts_and_humanities.jpg"
+            />
+          </div>
+          <h3
+            class="title"
+          >
+            Arts and Humanities
+          </h3>
+        </a>
+      </li>
+      <li
+        class="category"
+      >
+        <a
+          href="/category/physical-science-and-engineering"
+        >
+          <div
+            class="imageBlock"
+          >
+            <img
+              alt="Physical Science and Engineering"
+              class="image"
+              src="physical_science_and_engineering.jpg"
+            />
+          </div>
+          <h3
+            class="title"
+          >
+            Physical Science and Engineering
+          </h3>
+        </a>
+      </li>
+      <li
+        class="category"
+      >
+        <a
+          href="/category/math-and-logic"
+        >
+          <div
+            class="imageBlock"
+          >
+            <img
+              alt="Math and Logic"
+              class="image"
+              src="math_and_logic.jpg"
+            />
+          </div>
+          <h3
+            class="title"
+          >
+            Math and Logic
+          </h3>
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
+`;

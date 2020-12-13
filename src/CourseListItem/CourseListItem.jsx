@@ -6,7 +6,8 @@ const CourseListItem = (props) => {
     var data={
         title:props.course.title,
         imgurl:props.course.image._url,
-        description:props.description
+        description:props.course.description,
+        instructor:props.course.instructor
     };
     
 
@@ -15,7 +16,7 @@ const CourseListItem = (props) => {
             <Link
                 className={styles.link}
                 to={{
-                    pathname: `/${props.category}/${props.course.slug}`,
+                    pathname: `/category/${props.category}/course/${props.course.slug}`,
                     state:data,
                 }}
             >
@@ -29,11 +30,6 @@ const CourseListItem = (props) => {
                 <div className={styles.courseInfoBlock}>
                     <h3 className={styles.title}>{props.course.title}</h3>
                 </div>
-                <time
-                    className={styles.time}
-                    dateTime={props.course.pubDate}
-                >
-                </time>
             </Link>
         </li>
     );

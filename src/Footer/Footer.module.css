@@ -1,4 +1,12 @@
 
+.footer{
+    background-color: #f7f3f3;
+    left: auto;
+    right: 0;
+    position: bottom;
+    width: 100%;
+    z-index: 1;
+}
 .links{
     flex:1;
     display: flex;

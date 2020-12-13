@@ -1,0 +1,10 @@
+.section{
+    padding-top: 70px;
+    background-color: rgb(229, 231, 233);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}

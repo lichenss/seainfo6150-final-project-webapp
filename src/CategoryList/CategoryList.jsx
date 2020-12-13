@@ -47,13 +47,15 @@ const categories = [
         imageURI: mathandlogicImg,
     },
 ];
-const CategoryList = (props) => {
+const CategoryList = () => {
     return (
-        <ul className={styles.categoryContainer}>
+        <div className={styles.section}>
+        <ul className={styles.container}>
             {categories.map((category) => (
                 <CategoryListItem category={category} key={category.slug} />
             ))}
         </ul>
+        </div>
     )
 }
 export default CategoryList

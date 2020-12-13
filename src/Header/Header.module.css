@@ -1,5 +1,5 @@
 .header {
-    background-color: #fdfbfb;
+    background-color: #f7f3f3;
     top: 0;
     left: auto;
     right: 0;
@@ -44,6 +44,7 @@
 }
 
 .links {
+    font-family:'Roboto', sans-serif;
     flex:1;
     display: flex;
     justify-content: flex-end;
@@ -60,11 +61,18 @@
     text-decoration: none;
 }
 
-@media screen and (max-width:700px){
-    .catLink {
-        font-size: 0.8rem;
-    }
+@media screen and (min-width:600px){
     .barLink{
-        font-size: 1rem;
+        font-size: 1.0rem;
+    }
+}
+@media screen and (min-width:900px){
+    .barLink{
+        font-size: 1.3rem;
+    }
+}
+@media screen and (min-width:1200px){
+    .barLink{
+        font-size: 1.5rem;
     }
 }

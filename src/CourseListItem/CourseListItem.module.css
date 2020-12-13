@@ -2,8 +2,6 @@
   width: 80%;
 }
 
-.link {
-}
 
 .imageBlock {
   width: 100%;
@@ -16,24 +14,25 @@
   object-fit: cover;
 }
 
-.courseInfoBlock {
-}
-
 .title {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 1.5rem;
   margin-top: 8px;
   color: black;
 }
 
-@media screen and (min-width: 500px) {
-  .product {
-    width: 25rem;
+@media screen and (min-width:600px){
+  .imageBlock {
+    height: 4rem;
   }
 }
-
-@media screen and (min-width: 700px) and (max-width: 900px) {
-  .product {
-    width: 20rem;
+@media screen and (min-width:900px){
+  .imageBlock {
+    height: 6rem;
+  }
+}
+@media screen and (min-width:1200px){
+  .imageBlock {
+    height: 8rem;
   }
 }

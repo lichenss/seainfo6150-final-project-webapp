@@ -5,7 +5,7 @@ import styles from './CategoryListItem.module.css'
 const CategoryListItem = (props) => {
     return (
         <li className={styles.category}>
-            <Link to={props.category.categoryLink}>
+            <Link to={`/category/${props.category.categoryLink}`}>
             <div className={styles.imageBlock}>
                     <img
                         className={styles.image}

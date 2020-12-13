@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 
 const Course = (props) => {
     var data=props.location.state;
-    var {title,imgurl,description}=data;
+    var {title,imgurl,description,instructor}=data;
     return (
         <>
         <Header />
@@ -20,14 +20,22 @@ const Course = (props) => {
                     />
                     </div>
         <div className={styles.titleContainer}>
-            <h3 className={styles.title}>{data.title}</h3>
+            <h1 className={styles.title}>{data.title}</h1>
+        </div>
+        <div className={styles.instrcutorContainer}>
+            <h3>Instructor:</h3>
+            <p className={styles.content}>{data.instructor}</p>
         </div>
         <div className={styles.descriptionContainer}>
-            <p>{data.description}</p>
+            <h3>Description:</h3> 
+            <p className={styles.content}>{data.description}</p>
         </div>
         </div>
         <div className={styles.linkContainer}>
-        <Link className={styles.link} to={'/registration-confirmation'}>Registration</Link>
+        <Link className={styles.link} to={{
+                    pathname: `/registration-confirmation`,
+                    state:data,
+                }} >Registration</Link>
         </div>
         </section>
         <Footer />

@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CourseListItem tests renders correctly 1`] = `
+<div>
+  <li
+    class="course"
+  >
+    <a
+      class="link"
+      href="/category/computer-science/course/art-0001"
+    >
+      <div
+        class="imageBlock"
+      >
+        <img
+          alt="Therapeutic Art Life Coach Certification (Accredited)"
+          class="image"
+          src="https://arhu.umd.edu/sites/default/files/2019-04/iStock-955549248%20composite-JC%20flat2%20opt1-min.jpg"
+        />
+      </div>
+      <div
+        class="courseInfoBlock"
+      >
+        <h3
+          class="title"
+        >
+          Therapeutic Art Life Coach Certification (Accredited)
+        </h3>
+      </div>
+    </a>
+  </li>
+</div>
+`;
