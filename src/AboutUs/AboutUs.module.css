@@ -10,11 +10,17 @@
     font-family: 'Roboto', sans-serif;
 }
 @media screen and (min-width:600px){
-
+    .section{
+        padding-bottom: 2rem;
+    }
 }
 @media screen and (min-width:900px){
-    
+    .section{
+        padding-bottom: 2.5rem;
+    }
 }
 @media screen and (min-width:1200px){
-    
+    .section{
+        padding-bottom: 3rem;
+    }
 }
